@@ -1,4 +1,7 @@
-# Compiled Lua sources
+# Nginx log files
+logs
+*_temp
+
 luac.out
 
 # luarocks build files
@@ -38,4 +41,3 @@ luac.out
 *.i*86
 *.x86_64
 *.hex
-
