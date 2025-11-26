@@ -1,4 +1,4 @@
 #! /bin/sh
 
-nginx -s stop -p `pwd`/ -c conf/nginx.conf
+nginx -s stop -p `pwd`/ -c $1
 

@@ -1,3 +1,3 @@
 #! /bin/sh
 
-nginx -p `pwd`/ -c conf/nginx.conf
+nginx -p `pwd`/ -c $1
